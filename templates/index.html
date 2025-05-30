@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <title>SQL Query Ai</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const textarea = document.querySelector("textarea");
+            const form = document.querySelector("form");
+        
+            textarea.addEventListener("keydown", function (e) {
+                if (e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault(); // prevent newline
+                    form.submit(); // submit form
+                }
+            });
+        });
+        </script>
+        
+</head>
+<body>
+    <div class="navbar">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        <h2 style="margin: 0;">Excel Query AI</h2>
+    </div>
+
+    <div class="main-content">
+        <div class="chat-container">
+            {% if query %}
+            <div class="chat-box">
+                <div class="user-query"><strong>You:</strong> {{ query }}</div>
+                <div class="chat-response">
+                    {% if explanation %}
+                    <p class="explanation">{{ explanation }}</p>
+                    {% endif %}
+                
+                    {{ result_html|safe }}
+                
+                    {% if code %}
+                    <details>
+                        <summary>Generated SQL</summary>
+                        <pre>{{ code }}</pre>
+                    </details>
+                    {% endif %}
+                </div>
+                
+                
+            </div>
+            {% endif %}
+        </div>
+
+        <form method="POST" class="input-form">
+            <div class="input-wrapper">
+                <textarea name="query" placeholder="Ask a question..." autofocus required></textarea>
+                <button type="submit">➤</button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+
+</html>
 
