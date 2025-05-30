@@ -16,8 +16,8 @@ api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
-DB_PATH = 'database.db'
-SCHEMA_CACHE = 'db_schema.json'
+DB_PATH = 'database/database.db'
+SCHEMA_CACHE = 'database/db_schema.json'
 
 def extract_sql(text):
     sql_match = re.search(r"```sql(.*?)```", text, re.DOTALL | re.IGNORECASE)
