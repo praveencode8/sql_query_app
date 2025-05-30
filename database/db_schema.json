@@ -1,0 +1,2866 @@
+{
+  "SCHEME_DIM": [
+    {
+      "name": "SCHEME_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "ASSET_SUB_CLASS_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CAMS_ASSET_SUB_CLASS_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMFI_ASSET_SUB_CLASS_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ASSET_SUB_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMFI_SUB_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "CAMS_SUB_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "ASSET_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMFI_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "CAMS_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "OPEN_DT",
+      "type": "DATETIME"
+    },
+    {
+      "name": "CLOSE_DT",
+      "type": "DATETIME"
+    },
+    {
+      "name": "SCHEME_LONG_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "PARENT_SUB_FUND_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "ASSET_CLASS",
+      "type": "TEXT"
+    },
+    {
+      "name": "ASSET_SUB_CLASS",
+      "type": "TEXT"
+    },
+    {
+      "name": "LINK_SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PLAN_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "LOCKDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REMARKS",
+      "type": "TEXT"
+    },
+    {
+      "name": "NEW_SEBI_CATEGORY",
+      "type": "TEXT"
+    },
+    {
+      "name": "NEW_SEBI_SUB_CATEGORY",
+      "type": "TEXT"
+    },
+    {
+      "name": "ACTIVE_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMFI_SCHCODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ALLOT_DT",
+      "type": "DATETIME"
+    },
+    {
+      "name": "CUSIP_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "ALLOW_BSE_TRXN",
+      "type": "TEXT"
+    },
+    {
+      "name": "ALLOW_NSE_TRXN",
+      "type": "TEXT"
+    },
+    {
+      "name": "DAILY_DIVIDEND",
+      "type": "TEXT"
+    },
+    {
+      "name": "DECIMAL_NAV",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DECIMAL_UNITS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ISIN_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "LISTED_UNLISTED",
+      "type": "TEXT"
+    },
+    {
+      "name": "LOCKIN_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "MATURITY_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "MATURITY_PROCESS_APPLICABLE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PURCHASE_CUTOFF",
+      "type": "TEXT"
+    },
+    {
+      "name": "MIN_UNITS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MIN_AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REDEMPTION_CUTOFF",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_CATEGORY",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_CLASS",
+      "type": "TEXT"
+    },
+    {
+      "name": "SEBI_SCHEME_CLASS",
+      "type": "TEXT"
+    },
+    {
+      "name": "SUB_FUND_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "SWITCH_CUTOFF",
+      "type": "TEXT"
+    }
+  ],
+  "FOLIO_DIM": [
+    {
+      "name": "FOLIO_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "INVESTOR_FIRST_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "INVESTOR_MIDDLE_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INVESTOR_LAST_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INV_TYPE_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "RM_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FOLIO_BUSINESS_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAN_BUSINESS_CLASSIFICATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "DOB",
+      "type": "DATETIME"
+    },
+    {
+      "name": "ADDR1",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDR2",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDR3",
+      "type": "TEXT"
+    },
+    {
+      "name": "CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "STATE_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "PINCODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "COUNTRY",
+      "type": "TEXT"
+    },
+    {
+      "name": "OFF_PHONE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "RES_PHONE",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBILE_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL",
+      "type": "TEXT"
+    },
+    {
+      "name": "OFF_FAX",
+      "type": "TEXT"
+    },
+    {
+      "name": "RES_FAX",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "CUSTOMER_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "CUSTOMER_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "HOUSEHOLD_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CUSTOMER_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSURANCE_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FHKYC",
+      "type": "TEXT"
+    },
+    {
+      "name": "JH1KYC",
+      "type": "TEXT"
+    },
+    {
+      "name": "ALTERNATE_FOLIO_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SMS_ALERT",
+      "type": "TEXT"
+    },
+    {
+      "name": "BR_RECDDT",
+      "type": "DATETIME"
+    },
+    {
+      "name": "MEMO_ART",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSURANCE_TAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSURANCE_COVER",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TAX_EXEMPTION",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL_VALID",
+      "type": "TEXT"
+    },
+    {
+      "name": "LAST_USER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "ASLSTATUS",
+      "type": "TEXT"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "BIGINT"
+    },
+    {
+      "name": "VIP_CUST_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIO_CREATE_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "GENDER",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAN_EXEM_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAN_EXEM_CATEGORY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GUARDIAN_PAN_EXEM_CATEGORY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GUARDIAN_PAN_EXEM_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "VALIDFLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "OCCUPCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMAIL_ACST",
+      "type": "TEXT"
+    },
+    {
+      "name": "FATHERNAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "GHKYC",
+      "type": "TEXT"
+    },
+    {
+      "name": "GUARDNAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "GVALIDPAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "IVALIDPAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "J1VALIDPAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "J2VALIDPAN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "JH2KYC",
+      "type": "TEXT"
+    },
+    {
+      "name": "JOINTNAME1",
+      "type": "TEXT"
+    },
+    {
+      "name": "JOINTNAME2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MOTHERNAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "SEC_PAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRD_PAN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "G_AADHAAR_VALID",
+      "type": "TEXT"
+    },
+    {
+      "name": "AADHAAR_VALID",
+      "type": "TEXT"
+    },
+    {
+      "name": "FATCA_COMPLIANCE_REMARKS",
+      "type": "TEXT"
+    },
+    {
+      "name": "FATCA_COMPLIANCE",
+      "type": "TEXT"
+    },
+    {
+      "name": "CAMSREF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CHKDIGIT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CIP_TAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CONTPERSON",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EXCHID1",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EXCHID2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FOLIONO_REV",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INVTYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    },
+    {
+      "name": "LOADED_BY",
+      "type": "TEXT"
+    },
+    {
+      "name": "MAPPING_ID",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBILE_INT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REC_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REMARKS",
+      "type": "TEXT"
+    },
+    {
+      "name": "STATECODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "UIN",
+      "type": "TEXT"
+    },
+    {
+      "name": "FH_CKYC_STATUS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FH_CKYC_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "G_CKYC_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "G_CKYC_STATUS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "UBO_DECLARATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "INVESTOR_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GUARDIAN_PANNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "GUARDIAN_RELATIONSHIP",
+      "type": "TEXT"
+    },
+    {
+      "name": "JDOB_1",
+      "type": "DATETIME"
+    },
+    {
+      "name": "JDOB_2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "JH1_PAN_EXEM_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "JH2_PAN_EXEM_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "APPLICANT_INCOME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GAP_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "KYC_STATUS_DESC",
+      "type": "TEXT"
+    },
+    {
+      "name": "FH_IPV_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "FH_KRA_CODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FH_KYC_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "G_IPV_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "G_KYC_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DP_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "WHATSAPP_OPTED",
+      "type": "TEXT"
+    },
+    {
+      "name": "INVESTOR_RISK_LEVEL",
+      "type": "TEXT"
+    },
+    {
+      "name": "PEP_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "APPLICATION_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "CAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMAIL2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL3",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL4",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL5",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FATF_INVESTOR",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FH_CKYC_APP_RECEIVED",
+      "type": "TEXT"
+    },
+    {
+      "name": "GAS_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GDATE_OF_BIRTH",
+      "type": "DATETIME"
+    },
+    {
+      "name": "GUARDIAN_GENDER",
+      "type": "TEXT"
+    },
+    {
+      "name": "G_CKYC_APP_RECEIVED",
+      "type": "TEXT"
+    },
+    {
+      "name": "KEY_CLIENT",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBILE_NO2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MOBILE_NO3",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NET_WORTH",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NET_WORTH_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "PAYMODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PIN_ENABLED",
+      "type": "TEXT"
+    },
+    {
+      "name": "SSIP_PLAN_PERIOD",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TPA_LINKED",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TPA_LINKED_UPDATED_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "USA_CANADA_CITIZEN_RESID_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "USA_CANADA_CITIZEN_RESID_FROM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "USA_CANADA_CITIZEN_RESID_TO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NO_NOMINATION",
+      "type": "TEXT"
+    }
+  ],
+  "BROKER_AUM": [
+    {
+      "name": "FOLIO_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SCHEME_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROKER_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROKER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TOTAL_UNITS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NAV",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AUM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AUM_AS_ON",
+      "type": "DATETIME"
+    },
+    {
+      "name": "LOAD_DATE",
+      "type": "DATETIME"
+    }
+  ],
+  "FOLIO_BANK_DETAILS": [
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_LONG_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "INVESTOR_FIRST_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANKACNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANKACDE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "IFSCCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANKNAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANKBRANCH",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_CITY",
+      "type": "TEXT"
+    }
+  ],
+  "SIP_FACT": [
+    {
+      "name": "FOLIO_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SCHEME_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BROKER_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TRANSACTION_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TRANSACTION_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "FROMDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "TODATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "BRANCH_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "APPLNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "ENTRY_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "CEASED_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ACTFLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FREQUENCY",
+      "type": "TEXT"
+    },
+    {
+      "name": "SIPDATE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "AE_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "LOCATION_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "UPDATE_SERIAL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ENTRY_DATE_TIME_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CEASE_DATE_TIME_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SUB_TRXN_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "EXTENDED_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "ARN_EMP_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "EUIN_VALID",
+      "type": "TEXT"
+    },
+    {
+      "name": "EUIN_OPTED",
+      "type": "TEXT"
+    },
+    {
+      "name": "HIGH_LOW",
+      "type": "TEXT"
+    },
+    {
+      "name": "CEASE_INITIATED_BY",
+      "type": "TEXT"
+    },
+    {
+      "name": "NO_OF_INSTALMENTS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NIGO_REASON_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "CANCELLATION_REQUEST_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "TOP_UP_AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOP_UP_FREQUENCY",
+      "type": "TEXT"
+    },
+    {
+      "name": "TO_SCH",
+      "type": "TEXT"
+    },
+    {
+      "name": "GAIN_PERC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GAIN_VALUE",
+      "type": "TEXT"
+    },
+    {
+      "name": "GAIN_LOGIC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CAMS_DEL_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SCH_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SWAP_OPTION",
+      "type": "TEXT"
+    },
+    {
+      "name": "PACKAGE_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "REMARKS",
+      "type": "TEXT"
+    },
+    {
+      "name": "USER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SOURCE_PROGRAM",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMC_TRXNNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "DOC_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "AUTHORIZED_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "BEN_AC_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_BANK",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_BANK_AC_HOLDER_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_BRANCH",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_CHEQ_MICR_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_CITY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_EMAIL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_IFSC_CODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_INSTRM_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_MOBILE_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_RELATIONSHIP",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BEN_RELATIONSHIP_PROOF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BRH_CODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BROKER_COMM_PAID",
+      "type": "TEXT"
+    },
+    {
+      "name": "CANCELLATION_AUTH_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "LOGIN_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "DESPATCH_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "DT_DOCRECD",
+      "type": "DATETIME"
+    },
+    {
+      "name": "DOL_INSURANCE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EMP_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMP_MACH_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EXTENDED_USER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "FIRST_TRIGGER_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "HOLD_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "HOLD_REMOVE_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "HOLD_REMOVE_REASON",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSURANCE_ID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSURANCE_POLICY_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "ISIP_STATUS",
+      "type": "TEXT"
+    },
+    {
+      "name": "MAKER_ID",
+      "type": "TEXT"
+    },
+    {
+      "name": "MANDATE_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "MFDEXP_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "NEW_INVESTOR_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAUSE_FROM_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAUSE_TO_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REG_AUTH_DATE",
+      "type": "TEXT"
+    },
+    {
+      "name": "REGN_REVERSE_FEED_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "SPECIAL_PRODUCT",
+      "type": "TEXT"
+    },
+    {
+      "name": "MFDEX_LOCATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "TIMESTAMP_LOCATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "TOP_UP_MAX_CAP_AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOP_UP_MAX_CAP_YEAR",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOP_UP_PERC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOP_UP_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOPUP_CONVERSION_DATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "UMRN",
+      "type": "TEXT"
+    },
+    {
+      "name": "DML_OPR",
+      "type": "TEXT"
+    }
+  ],
+  "TRXN_FACT": [
+    {
+      "name": "FOLIO_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROKER_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SUB_BROKER_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROKER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SUB_BROKER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRANS_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TRANS_STATUS",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRANS_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TIME_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BRANCH_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "EISC_TRANS_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TRANS_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "UNITS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PRICE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TAX",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TOTAL_TAX",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TRXSUBTYPC",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXNCATCOD",
+      "type": "FLOAT"
+    },
+    {
+      "name": "APPLNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSTRMNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSTRMDATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSTRMBANK",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSTRMBRAN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DESPDATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AIRBILL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "STT_TAX",
+      "type": "BIGINT"
+    },
+    {
+      "name": "PROCDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "TRXN_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TRXNTYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "OLDTRXNNO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "COLBNKCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXNDESC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SPLIT_REMARKS",
+      "type": "TEXT"
+    },
+    {
+      "name": "AUTO_TRXN_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SOURCE_PROGRAM",
+      "type": "TEXT"
+    },
+    {
+      "name": "REMARKS1",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REMARKS2",
+      "type": "FLOAT"
+    },
+    {
+      "name": "REMARKS3",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SUBARN",
+      "type": "TEXT"
+    },
+    {
+      "name": "EUINNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "EUINOPT",
+      "type": "TEXT"
+    },
+    {
+      "name": "EUINVALID",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMC_COMM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROK_COMM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROK_DLR_COMM_PAID",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROK_PERC",
+      "type": "BIGINT"
+    },
+    {
+      "name": "ENTRY_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "OLD_SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PLOT_AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PURCH_ID",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SOURCE_BROKER_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TER_LOCATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXNTYPDES",
+      "type": "TEXT"
+    },
+    {
+      "name": "DEL_TXN_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "INTRA_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "TRXN_TYPE_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "DML_OPR",
+      "type": "TEXT"
+    },
+    {
+      "name": "PACKAGE_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ADD_COMM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ADD_PERC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EXIT_LOAD",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMC_PERC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMC_TXNNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMP_MACH_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMP_REF_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DC_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FEE_VALUE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MFDEXP_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "ORIGINAL_TRXN_MODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PLOT_PURCH_REDEEM_PRICE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIGN_VERIFIED",
+      "type": "TEXT"
+    },
+    {
+      "name": "STAMP_DUTY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MFDEX_LOCATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXN_CHARGES",
+      "type": "FLOAT"
+    },
+    {
+      "name": "USER_CODE",
+      "type": "TEXT"
+    }
+  ],
+  "POA_DETAILS": [
+    {
+      "name": "ADDRESS1",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDRESS2",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDRESS3",
+      "type": "TEXT"
+    },
+    {
+      "name": "CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "BIGINT"
+    },
+    {
+      "name": "DATE_OF_BIRTH",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EFF_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EMAIL",
+      "type": "TEXT"
+    },
+    {
+      "name": "EXP_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "FAX",
+      "type": "TEXT"
+    },
+    {
+      "name": "FAX_OFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FIRST_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "KYC_FLAG",
+      "type": "FLOAT"
+    },
+    {
+      "name": "LAST_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MIDDLE_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "PHONE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONE_OFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PINCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "POA_ISSUED_BY",
+      "type": "TEXT"
+    },
+    {
+      "name": "POA_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "POA_REF",
+      "type": "BIGINT"
+    },
+    {
+      "name": "POSTED_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "SCHEME_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "STATE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TAX_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "UPDATE_SERIAL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "VALID_PAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    },
+    {
+      "name": "KYC_TYPE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "POA_KRA_CODE",
+      "type": "FLOAT"
+    }
+  ],
+  "BRANCH_DETAILS": [
+    {
+      "name": "BRANCH_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BRANCH_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BRANCH_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "ZONE_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BRANCH_PARENT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AMC_REGION",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMC_ZONE",
+      "type": "TEXT"
+    },
+    {
+      "name": "USERDEPT",
+      "type": "TEXT"
+    },
+    {
+      "name": "CHAN_LOC",
+      "type": "TEXT"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "valid_flag",
+      "type": "TEXT"
+    }
+  ],
+  "PURCHASE_DETAILS": [
+    {
+      "name": "FIRCNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FIRCDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "CHQCLR_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "CHQCLR_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "PAYSLIP_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INST_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "DEPOSIT_BK_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "INSTRMDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "INSTRMNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "AIRBILL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DESPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "INSTRMBRAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "INSTRMBANK",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXN_TYPE_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCH_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYMENT_MECHANISM",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXN_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "UPDATE_SERIAL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    }
+  ],
+  "BROKER_DETAILS": [
+    {
+      "name": "BROKER_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "BROKER_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMFI_REG_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "CAT",
+      "type": "TEXT"
+    },
+    {
+      "name": "SUB_CATEGORY",
+      "type": "TEXT"
+    },
+    {
+      "name": "RM_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ADDR1",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDR2",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDR3",
+      "type": "TEXT"
+    },
+    {
+      "name": "CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "STATE_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "PINCODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONE1",
+      "type": "TEXT"
+    },
+    {
+      "name": "PHONE2",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBILE_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL",
+      "type": "TEXT"
+    },
+    {
+      "name": "FAX",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAN",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMPL_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "CREATE_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EMPL_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "ARN_EXPIRY_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "BANK_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_BRANCH",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_ACCOUNT_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CHANNEL_BROKER",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMPLSTATUS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BROKER_BRANCH_KEY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BROKER_BRANCH_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER_BRANCH_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER_BRANCH_ZONE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MIS_CATEGORY",
+      "type": "TEXT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "ACTIVE_FLAG",
+      "type": "TEXT"
+    }
+  ],
+  "ASSETWISE_ALLOCATION": [
+    {
+      "name": "MNTH",
+      "type": "DATETIME"
+    },
+    {
+      "name": "LOCATION",
+      "type": "TEXT"
+    },
+    {
+      "name": "T15_B15",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCHEME_TYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "CLGASSETS_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CLGASSETS_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SALES_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SALES_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "RED_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "RED_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TRXNS_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TRXNS_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIOS_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIOS_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NET_SWITCH_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NET_SWITCH_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DIVREINV_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "DIVREINV_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "AVGAGE_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AVGAGE_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AVGASSETS_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AVGASSETS_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SWITCH_IN_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SWITCH_IN_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SWITCH_OUT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SWITCH_OUT_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NEW_SIP_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NEW_SIP_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NEW_SIP_AMOUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NEW_SIP_AMOUNT_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TOTAL_SIP_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TOTAL_SIP_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_AVERAGE_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIP_AVERAGE_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIP_VALUE_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_VALUE_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_FAILED_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_FAILED_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_CEASED_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_CEASED_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_AUM_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIP_AUM_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SALES_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SALES_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FRESH_PURCH_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FRESH_PURCH_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SWITCH_IN_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SWITCH_IN_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_TRIG_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_TRIG_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_TRIG_AMT_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIP_TRIG_AMT_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "STP_TRIG_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "STP_TRIG_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "STP_TRIG_AMT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "STP_TRIG_AMT_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NEW_STP_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NEW_STP_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TOTAL_STP_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TOTAL_STP_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "STP_CEASED_COUNT_T",
+      "type": "BIGINT"
+    },
+    {
+      "name": "STP_CEASED_COUNT_A",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SIP_AVERAGE_SIZE_T",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SIP_AVERAGE_SIZE_A",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SL_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "RNK",
+      "type": "BIGINT"
+    },
+    {
+      "name": "GROSS_SALES_BSLAMC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GROSS_SALES_INDUSTRY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NET_SALES_BSLAMC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NET_SALES_INDUSTRY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "WEEKLY_FLAG",
+      "type": "TEXT"
+    }
+  ],
+  "BROKER_DEALER": [
+    {
+      "name": "BROK_DLR_C",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMP_TAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "REMARKS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CONS_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROK_DLR_N",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDRESS1",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDRESS2",
+      "type": "TEXT"
+    },
+    {
+      "name": "ADDRESS3",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "PINCODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONE_OFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONE_RES",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FAX_OFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FAX_RES",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMAIL2",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMAIL3",
+      "type": "TEXT"
+    },
+    {
+      "name": "EMAIL4",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL5",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MOBILE_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TAX_NO",
+      "type": "TEXT"
+    },
+    {
+      "name": "CONTACT_1",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CONTACT_2",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKER_TYP",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROK_DLR_0",
+      "type": "TEXT"
+    },
+    {
+      "name": "CATG_DESC",
+      "type": "TEXT"
+    },
+    {
+      "name": "CHANNEL_BR",
+      "type": "TEXT"
+    },
+    {
+      "name": "WEB_ALLOWE",
+      "type": "TEXT"
+    },
+    {
+      "name": "KYD_RECEIV",
+      "type": "TEXT"
+    },
+    {
+      "name": "NRI",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBILISATION",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMPANELMEN",
+      "type": "DATETIME"
+    },
+    {
+      "name": "EXPERIENCE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "STATUS",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_AC_T",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_AC_N",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_BANK",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_BAN1",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_BAN2",
+      "type": "TEXT"
+    },
+    {
+      "name": "IFSC_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYEE_PAYO",
+      "type": "TEXT"
+    },
+    {
+      "name": "LOCATION_C",
+      "type": "TEXT"
+    },
+    {
+      "name": "LOC_CITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "AMC_ZONE_C",
+      "type": "TEXT"
+    },
+    {
+      "name": "ZONE1",
+      "type": "TEXT"
+    },
+    {
+      "name": "AUM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AVG_AUM",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAILTAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "MOBTAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANKTAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "ARN_EXPIRY",
+      "type": "DATETIME"
+    }
+  ],
+  "NOMINEE_DETAILS": [
+    {
+      "name": "FOLIONO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "FOLIO_KEY",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NOMREF",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NOMTITLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NOM",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMREL",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMDOB",
+      "type": "DATETIME"
+    },
+    {
+      "name": "NOMDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "NOMGUARD",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NOMADDR1",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMADDR2",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMADDR3",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMCITY",
+      "type": "TEXT"
+    },
+    {
+      "name": "NOMSTAT",
+      "type": "TEXT"
+    },
+    {
+      "name": "COUNTRY",
+      "type": "TEXT"
+    },
+    {
+      "name": "PINCODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONEOFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PHONERES",
+      "type": "TEXT"
+    },
+    {
+      "name": "FAXOFF",
+      "type": "FLOAT"
+    },
+    {
+      "name": "FAXRES",
+      "type": "FLOAT"
+    },
+    {
+      "name": "EMAIL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NOMNO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "NOMPERC",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NLAST_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NMIDDLE_NAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    },
+    {
+      "name": "DATE_OF_BIRTH",
+      "type": "DATETIME"
+    },
+    {
+      "name": "NOMINATION_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "NOMINEE_NO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TITL",
+      "type": "FLOAT"
+    }
+  ],
+  "OCCUPATION_DETAILS": [
+    {
+      "name": "OCCUPACODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "OCCUPADESC",
+      "type": "TEXT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    }
+  ],
+  "REDEMPTION_DETAILS": [
+    {
+      "name": "CHQCLR_FLAG",
+      "type": "TEXT"
+    },
+    {
+      "name": "CHQCLR_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "MAILMODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "DESPSTAT",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_BRANCH",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_ACTYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BANK_ACNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BANK_MICRNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "IFSCCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "NEFTCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "INSTRMNO",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXN_TYPE_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "PAYMENT_MECHANISM",
+      "type": "TEXT"
+    },
+    {
+      "name": "DESPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "AIRBILL",
+      "type": "TEXT"
+    },
+    {
+      "name": "SCH_CODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "FOLIO_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "WARR_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "TRXN_NO",
+      "type": "BIGINT"
+    },
+    {
+      "name": "UPDATE_SERIAL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BATCH_NUM",
+      "type": "BIGINT"
+    },
+    {
+      "name": "LOAD_TIME",
+      "type": "DATETIME"
+    },
+    {
+      "name": "BALANCE_DUE_AMOUNT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CHEQUE_AMOUNT_TRADE_CURRENCY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAYEE_CITY_NAME",
+      "type": "TEXT"
+    },
+    {
+      "name": "VALID_THIRD_PARTY",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SETTLEMENT_DATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "Unnamed: 30",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CHQCLR_FLAG.1",
+      "type": "TEXT"
+    }
+  ],
+  "BROKER_PAYMENTS": [
+    {
+      "name": "BROKCODE",
+      "type": "BIGINT"
+    },
+    {
+      "name": "SCHCODE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXNDATE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "TRXNDESC",
+      "type": "TEXT"
+    },
+    {
+      "name": "TRXNTYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "BROKERAGE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "INSTRUNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "WARRNO",
+      "type": "FLOAT"
+    },
+    {
+      "name": "TDSAMT",
+      "type": "FLOAT"
+    },
+    {
+      "name": "SERVTAX",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAYMODE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PSTATUS",
+      "type": "FLOAT"
+    },
+    {
+      "name": "DESPDATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "PAIDDATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "CHQDATE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "COURNAME",
+      "type": "FLOAT"
+    },
+    {
+      "name": "WAYBILL",
+      "type": "FLOAT"
+    },
+    {
+      "name": "BROKTYPE",
+      "type": "TEXT"
+    },
+    {
+      "name": "TIME_STAMP",
+      "type": "DATETIME"
+    },
+    {
+      "name": "COMMIT_SCN",
+      "type": "BIGINT"
+    },
+    {
+      "name": "DT_UPDATE",
+      "type": "FLOAT"
+    }
+  ]
+}
